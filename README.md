@@ -2,7 +2,7 @@
 small express-like middle ware lib
 
 # example
-
+`
 const middleware = require('./lib/middleware');
 const app = middleware(8080);
 
@@ -25,3 +25,4 @@ app.get('/test', (req, res) => {
   // Route.
   res.end('helo world');
 });
+`
