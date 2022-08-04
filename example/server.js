@@ -1,6 +1,6 @@
 
-const middleware = require('./middleware');
-const app = middleware(8071);
+const middleware = require('../lib/middleware');
+const app = middleware(8080);
 
 app.use(function(req, res, next) {
 
